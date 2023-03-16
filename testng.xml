@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Test Suite- Saiv Android App">
+
+   	<test name="Test">
+		<classes>
+			<class name="com.sample.test.SampleTest" />
+		</classes>
+	</test>
+	
+</suite>

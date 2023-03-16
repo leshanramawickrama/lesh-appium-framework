@@ -1,0 +1,259 @@
+2023-02-09 13:42:22,639 INFO  [Log] Sample Test  Initialize FrameWork Property file - fail ------------>src\test\resources\TestData\arimacFramework.properties (The system cannot find the path specified) 
+2023-02-09 13:42:22,639 INFO  [Log] Sample Test  Initialize TestData Property file - fail ------------>src\test\resources\TestData\testData.properties (The system cannot find the path specified) 
+2023-02-09 13:42:22,639 INFO  [Log] Sample Test  Initialize ExpectedResults Property file - fail ------------>src\test\resources\TestData\expectedResults.properties (The system cannot find the path specified) 
+2023-02-09 13:42:22,639 INFO  [Log] Sample Test  Setup test configuration success------------> 
+2023-02-09 13:42:22,667 INFO  [Log] Sample Test  Setup android driver - fail ------------>null 
+2023-02-09 13:42:46,104 INFO  [Log] Sample Test  Initialize FrameWork Property file - fail ------------>src\test\resources\TestData\arimacFramework.properties (The system cannot find the path specified) 
+2023-02-09 13:42:46,104 INFO  [Log] Sample Test  Initialize TestData Property file - fail ------------>src\test\resources\TestData\testData.properties (The system cannot find the path specified) 
+2023-02-09 13:42:46,105 INFO  [Log] Sample Test  Initialize ExpectedResults Property file - fail ------------>src\test\resources\TestData\expectedResults.properties (The system cannot find the path specified) 
+2023-02-09 13:42:46,105 INFO  [Log] Sample Test  Setup test configuration success------------> 
+2023-02-09 13:48:21,520 INFO  [Log] Sample Test  Setup android driver - fail ------------>null 
+2023-02-09 13:48:36,693 INFO  [Log] Sample Test  Initialize FrameWork Property file - fail ------------>src\test\resources\properties\system.properties (The system cannot find the file specified) 
+2023-02-09 13:48:36,694 INFO  [Log] Sample Test  Initialize TestData Property file - fail ------------>src\test\resources\TestData\testData.properties (The system cannot find the path specified) 
+2023-02-09 13:48:36,694 INFO  [Log] Sample Test  Initialize ExpectedResults Property file - fail ------------>src\test\resources\TestData\expectedResults.properties (The system cannot find the path specified) 
+2023-02-09 13:48:36,694 INFO  [Log] Sample Test  Setup test configuration success------------> 
+2023-02-09 13:51:53,883 INFO  [Log] Sample Test  Setup android driver - fail ------------>null 
+2023-02-09 13:52:00,854 INFO  [Log] Sample Test  Initialize FrameWork Property file - fail ------------>src\test\resources\properties\System.properties (The system cannot find the file specified) 
+2023-02-09 13:52:00,854 INFO  [Log] Sample Test  Initialize TestData Property file - fail ------------>src\test\resources\TestData\testData.properties (The system cannot find the path specified) 
+2023-02-09 13:52:00,854 INFO  [Log] Sample Test  Initialize ExpectedResults Property file - fail ------------>src\test\resources\TestData\expectedResults.properties (The system cannot find the path specified) 
+2023-02-09 13:52:00,854 INFO  [Log] Sample Test  Setup test configuration success------------> 
+2023-02-09 13:55:33,996 INFO  [Log] Sample Test  Setup android driver - fail ------------>null 
+2023-02-09 13:55:48,564 INFO  [Log] Sample Test  Initialize FrameWork Property file - success ------------> 
+2023-02-09 13:55:48,564 INFO  [Log] Sample Test  Initialize TestData Property file - fail ------------>src\test\resources\TestData\testData.properties (The system cannot find the path specified) 
+2023-02-09 13:55:48,564 INFO  [Log] Sample Test  Initialize ExpectedResults Property file - fail ------------>src\test\resources\TestData\expectedResults.properties (The system cannot find the path specified) 
+2023-02-09 13:55:48,564 INFO  [Log] Sample Test  Setup test configuration success------------> 
+2023-02-09 14:29:02,585 INFO  [Log] Sample Test  Setup android driver - fail ------------>Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details 
+Host info: host: 'DESKTOP-KDA5GB8', ip: '192.168.1.3'
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:appActivity=com.visa.android.activities.SplashActivity, appium:appPackage=com.visa.android, appium:deviceName=Redmi 10, appium:newCommandTimeout=900, appium:noReset=true, platformName=ANDROID, appium:systemPort=8200, appium:udid=49adca840507, appium:version=8.1.0}], desiredCapabilities=Capabilities {appActivity: com.visa.android.activities..., appPackage: com.visa.android, deviceName: Redmi 10, newCommandTimeout: 900, noReset: true, platformName: ANDROID, systemPort: 8200, udid: 49adca840507, version: 8.1.0}}]
+Capabilities {} 
+2023-02-09 15:07:21,910 INFO  [Log] Sample Test  Initialize FrameWork Property file - success ------------> 
+2023-02-09 15:07:21,912 INFO  [Log] Sample Test  Initialize TestData Property file - fail ------------>src\test\resources\TestData\testData.properties (The system cannot find the path specified) 
+2023-02-09 15:07:21,912 INFO  [Log] Sample Test  Initialize ExpectedResults Property file - fail ------------>src\test\resources\TestData\expectedResults.properties (The system cannot find the path specified) 
+2023-02-09 15:07:21,912 INFO  [Log] Sample Test  Setup test configuration success------------> 
+2023-02-09 15:15:30,894 INFO  [Log] Sample Test  Initialize FrameWork Property file - success ------------> 
+2023-02-09 15:15:30,895 INFO  [Log] Sample Test  Initialize TestData Property file - fail ------------>src\test\resources\TestData\testData.properties (The system cannot find the path specified) 
+2023-02-09 15:15:30,895 INFO  [Log] Sample Test  Initialize ExpectedResults Property file - fail ------------>src\test\resources\TestData\expectedResults.properties (The system cannot find the path specified) 
+2023-02-09 15:15:30,895 INFO  [Log] Sample Test  Setup test configuration success------------> 
+2023-02-09 15:17:36,072 INFO  [Log] Sample Test  Setup android driver - fail ------------>Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details 
+Host info: host: 'DESKTOP-KDA5GB8', ip: '192.168.1.3'
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:appActivity=com.dgotlieb.automationsample.MainActivity, appium:appPackage=com.dgotlieb.automationsample, appium:deviceName=Redmi 10, appium:newCommandTimeout=900, appium:noReset=true, platformName=ANDROID, appium:systemPort=8200, appium:udid=49adca840507, appium:version=8.1.0}], desiredCapabilities=Capabilities {appActivity: com.dgotlieb.automationsamp..., appPackage: com.dgotlieb.automationsample, deviceName: Redmi 10, newCommandTimeout: 900, noReset: true, platformName: ANDROID, systemPort: 8200, udid: 49adca840507, version: 8.1.0}}]
+Capabilities {} 
+2023-02-09 15:17:43,002 INFO  [Log] Sample Test  Initialize FrameWork Property file - success ------------> 
+2023-02-09 15:17:43,003 INFO  [Log] Sample Test  Initialize TestData Property file - fail ------------>src\test\resources\TestData\testData.properties (The system cannot find the path specified) 
+2023-02-09 15:17:43,003 INFO  [Log] Sample Test  Initialize ExpectedResults Property file - fail ------------>src\test\resources\TestData\expectedResults.properties (The system cannot find the path specified) 
+2023-02-09 15:17:43,003 INFO  [Log] Sample Test  Setup test configuration success------------> 
+2023-02-09 15:19:12,162 INFO  [Log] Sample Test  Setup android driver - fail ------------>Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details 
+Host info: host: 'DESKTOP-KDA5GB8', ip: '192.168.1.3'
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:appActivity=com.dgotlieb.automationsample.MainActivity, appium:appPackage=com.dgotlieb.automationsample, appium:deviceName=Redmi 10, appium:newCommandTimeout=900, platformName=ANDROID, appium:systemPort=8200, appium:udid=49adca840507, appium:version=8.1.0}], desiredCapabilities=Capabilities {appActivity: com.dgotlieb.automationsamp..., appPackage: com.dgotlieb.automationsample, deviceName: Redmi 10, newCommandTimeout: 900, platformName: ANDROID, systemPort: 8200, udid: 49adca840507, version: 8.1.0}}]
+Capabilities {} 
+2023-02-09 15:19:19,332 INFO  [Log] Sample Test  Initialize FrameWork Property file - success ------------> 
+2023-02-09 15:19:19,333 INFO  [Log] Sample Test  Initialize TestData Property file - fail ------------>src\test\resources\TestData\testData.properties (The system cannot find the path specified) 
+2023-02-09 15:19:19,333 INFO  [Log] Sample Test  Initialize ExpectedResults Property file - fail ------------>src\test\resources\TestData\expectedResults.properties (The system cannot find the path specified) 
+2023-02-09 15:19:19,333 INFO  [Log] Sample Test  Setup test configuration success------------> 
+2023-02-09 15:27:20,097 INFO  [Log] Sample Test  Setup android driver - fail ------------>Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details 
+Host info: host: 'DESKTOP-KDA5GB8', ip: '192.168.1.3'
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:appActivity=com.dgotlieb.automationsample.MainActivity, appium:appPackage=com.dgotlieb.automationsample, appium:deviceName=Redmi 10, appium:newCommandTimeout=900, platformName=ANDROID, appium:systemPort=8200, appium:udid=49adca840507}], desiredCapabilities=Capabilities {appActivity: com.dgotlieb.automationsamp..., appPackage: com.dgotlieb.automationsample, deviceName: Redmi 10, newCommandTimeout: 900, platformName: ANDROID, systemPort: 8200, udid: 49adca840507}}]
+Capabilities {} 
+2023-02-09 15:27:28,498 INFO  [Log] Sample Test  Initialize FrameWork Property file - success ------------> 
+2023-02-09 15:27:28,500 INFO  [Log] Sample Test  Initialize TestData Property file - fail ------------>src\test\resources\TestData\testData.properties (The system cannot find the path specified) 
+2023-02-09 15:27:28,500 INFO  [Log] Sample Test  Initialize ExpectedResults Property file - fail ------------>src\test\resources\TestData\expectedResults.properties (The system cannot find the path specified) 
+2023-02-09 15:27:28,500 INFO  [Log] Sample Test  Setup test configuration success------------> 
+2023-02-09 15:30:04,335 INFO  [Log] Sample Test  Setup android driver - fail ------------>Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details 
+Host info: host: 'DESKTOP-KDA5GB8', ip: '192.168.1.3'
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:appActivity=com.dgotlieb.automationsample.MainActivity, appium:appPackage=com.dgotlieb.automationsample, appium:deviceName=Redmi 10, appium:newCommandTimeout=900, platformName=ANDROID, appium:systemPort=8200, appium:udid=49adca840507}], desiredCapabilities=Capabilities {appActivity: com.dgotlieb.automationsamp..., appPackage: com.dgotlieb.automationsample, deviceName: Redmi 10, newCommandTimeout: 900, platformName: ANDROID, systemPort: 8200, udid: 49adca840507}}]
+Capabilities {} 
+2023-02-09 15:30:11,235 INFO  [Log] Sample Test  Initialize FrameWork Property file - success ------------> 
+2023-02-09 15:30:11,237 INFO  [Log] Sample Test  Initialize TestData Property file - fail ------------>src\test\resources\TestData\testData.properties (The system cannot find the path specified) 
+2023-02-09 15:30:11,238 INFO  [Log] Sample Test  Initialize ExpectedResults Property file - fail ------------>src\test\resources\TestData\expectedResults.properties (The system cannot find the path specified) 
+2023-02-09 15:30:11,238 INFO  [Log] Sample Test  Setup test configuration success------------> 
+2023-02-09 15:37:39,716 INFO  [Log] Sample Test  Setup android driver - fail ------------>Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details 
+Host info: host: 'DESKTOP-KDA5GB8', ip: '192.168.1.3'
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:appActivity=com.dgotlieb.automationsample.MainActivity, appium:appPackage=com.dgotlieb.automationsample, appium:deviceName=Redmi 10, appium:newCommandTimeout=900, platformName=ANDROID, appium:systemPort=8200, appium:udid=49adca840507}], desiredCapabilities=Capabilities {appActivity: com.dgotlieb.automationsamp..., appPackage: com.dgotlieb.automationsample, deviceName: Redmi 10, newCommandTimeout: 900, platformName: ANDROID, systemPort: 8200, udid: 49adca840507}}]
+Capabilities {} 
+2023-02-09 15:37:52,697 INFO  [Log] Sample Test  Initialize FrameWork Property file - success ------------> 
+2023-02-09 15:37:52,697 INFO  [Log] Sample Test  Initialize TestData Property file - fail ------------>src\test\resources\TestData\testData.properties (The system cannot find the path specified) 
+2023-02-09 15:37:52,697 INFO  [Log] Sample Test  Initialize ExpectedResults Property file - fail ------------>src\test\resources\TestData\expectedResults.properties (The system cannot find the path specified) 
+2023-02-09 15:37:52,697 INFO  [Log] Sample Test  Setup test configuration success------------> 
+2023-02-09 15:37:54,510 INFO  [Log] Sample Test  Setup android driver - fail ------------>Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details 
+Host info: host: 'DESKTOP-KDA5GB8', ip: '192.168.1.3'
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:appActivity=com.dgotlieb.automationsample.MainActivity, appium:appPackage=com.dgotlieb.automationsample, appium:deviceName=Redmi 10, appium:newCommandTimeout=900, platformName=ANDROID, appium:systemPort=8200, appium:udid=49adca840507}], desiredCapabilities=Capabilities {appActivity: com.dgotlieb.automationsamp..., appPackage: com.dgotlieb.automationsample, deviceName: Redmi 10, newCommandTimeout: 900, platformName: ANDROID, systemPort: 8200, udid: 49adca840507}}]
+Capabilities {} 
+2023-02-09 15:38:04,151 INFO  [Log] Sample Test  Initialize FrameWork Property file - success ------------> 
+2023-02-09 15:38:04,152 INFO  [Log] Sample Test  Initialize TestData Property file - fail ------------>src\test\resources\TestData\testData.properties (The system cannot find the path specified) 
+2023-02-09 15:38:04,152 INFO  [Log] Sample Test  Initialize ExpectedResults Property file - fail ------------>src\test\resources\TestData\expectedResults.properties (The system cannot find the path specified) 
+2023-02-09 15:38:04,152 INFO  [Log] Sample Test  Setup test configuration success------------> 
+2023-02-09 15:42:58,076 INFO  [Log] Sample Test  Setup android driver - fail ------------>Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details 
+Host info: host: 'DESKTOP-KDA5GB8', ip: '192.168.1.3'
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:appActivity=com.dgotlieb.automationsample.MainActivity, appium:appPackage=com.dgotlieb.automationsample, appium:deviceName=Redmi 10, appium:newCommandTimeout=900, platformName=ANDROID, appium:systemPort=8200, appium:udid=49adca840507}], desiredCapabilities=Capabilities {appActivity: com.dgotlieb.automationsamp..., appPackage: com.dgotlieb.automationsample, deviceName: Redmi 10, newCommandTimeout: 900, platformName: ANDROID, systemPort: 8200, udid: 49adca840507}}]
+Capabilities {} 
+2023-02-09 15:43:07,682 INFO  [Log] Sample Test  Initialize FrameWork Property file - success ------------> 
+2023-02-09 15:43:07,682 INFO  [Log] Sample Test  Initialize TestData Property file - fail ------------>src\test\resources\TestData\testData.properties (The system cannot find the path specified) 
+2023-02-09 15:43:07,682 INFO  [Log] Sample Test  Initialize ExpectedResults Property file - fail ------------>src\test\resources\TestData\expectedResults.properties (The system cannot find the path specified) 
+2023-02-09 15:43:07,682 INFO  [Log] Sample Test  Setup test configuration success------------> 
+2023-02-09 16:09:01,054 INFO  [Log] Sample Test  Setup android driver - success ------------> 
+2023-02-09 16:09:06,879 INFO  [Log] Sample Test  Initialize FrameWork Property file - success ------------> 
+2023-02-09 16:09:06,879 INFO  [Log] Sample Test  Initialize TestData Property file - fail ------------>src\test\resources\TestData\testData.properties (The system cannot find the path specified) 
+2023-02-09 16:09:06,879 INFO  [Log] Sample Test  Initialize ExpectedResults Property file - fail ------------>src\test\resources\TestData\expectedResults.properties (The system cannot find the path specified) 
+2023-02-09 16:09:06,879 INFO  [Log] Sample Test  Setup test configuration success------------> 
+2023-02-09 16:41:35,136 INFO  [Log] Sample Test  Setup android driver - success ------------> 
+2023-02-09 16:48:30,603 INFO  [Log] Sample Test  Initialize FrameWork Property file - success ------------> 
+2023-02-09 16:48:30,603 INFO  [Log] Sample Test  Initialize TestData Property file - fail ------------>src\test\resources\TestData\testData.properties (The system cannot find the path specified) 
+2023-02-09 16:48:30,603 INFO  [Log] Sample Test  Initialize ExpectedResults Property file - fail ------------>src\test\resources\TestData\expectedResults.properties (The system cannot find the path specified) 
+2023-02-09 16:48:30,603 INFO  [Log] Sample Test  Setup test configuration success------------> 
+2023-02-09 18:13:40,555 INFO  [Log] Sample Test  Initialize FrameWork Property file - success ------------> 
+2023-02-09 18:13:40,571 INFO  [Log] Sample Test  Initialize TestData Property file - fail ------------>src\test\resources\TestData\testData.properties (The system cannot find the path specified) 
+2023-02-09 18:13:40,572 INFO  [Log] Sample Test  Initialize ExpectedResults Property file - fail ------------>src\test\resources\TestData\expectedResults.properties (The system cannot find the path specified) 
+2023-02-09 18:13:40,572 INFO  [Log] Sample Test  Setup test configuration success------------> 
+2023-02-09 18:20:43,165 INFO  [Log] Sample Test  Setup android driver - success ------------> 
+2023-02-09 18:33:18,915 INFO  [Log] Sample Test  Initialize FrameWork Property file - success ------------> 
+2023-02-09 18:33:18,916 INFO  [Log] Sample Test  Initialize TestData Property file - fail ------------>src\test\resources\TestData\testData.properties (The system cannot find the path specified) 
+2023-02-09 18:33:18,916 INFO  [Log] Sample Test  Initialize ExpectedResults Property file - fail ------------>src\test\resources\TestData\expectedResults.properties (The system cannot find the path specified) 
+2023-02-09 18:33:18,916 INFO  [Log] Sample Test  Setup test configuration success------------> 
+2023-02-09 18:36:41,572 INFO  [Log] Sample Test  Setup android driver - fail ------------>Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: UiAutomator2 Server cannot start because the local port #8200 is busy. Make sure the port you provide via 'systemPort' capability is not occupied. This situation might often be a result of an inaccurate sessions management, e.g. old automation sessions on the same device must always be closed before starting new ones. 
+Host info: host: 'DESKTOP-KDA5GB8', ip: '192.168.1.3'
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:appActivity=com.dgotlieb.automationsample.MainActivity, appium:appPackage=com.dgotlieb.automationsample, appium:deviceName=Redmi 10, appium:newCommandTimeout=900, platformName=ANDROID, appium:systemPort=8200, appium:udid=49adca840507}], desiredCapabilities=Capabilities {appActivity: com.dgotlieb.automationsamp..., appPackage: com.dgotlieb.automationsample, deviceName: Redmi 10, newCommandTimeout: 900, platformName: ANDROID, systemPort: 8200, udid: 49adca840507}}]
+Capabilities {} 
+2023-02-09 18:36:49,070 INFO  [Log] Sample Test  Initialize FrameWork Property file - success ------------> 
+2023-02-09 18:36:49,071 INFO  [Log] Sample Test  Initialize TestData Property file - fail ------------>src\test\resources\TestData\testData.properties (The system cannot find the path specified) 
+2023-02-09 18:36:49,071 INFO  [Log] Sample Test  Initialize ExpectedResults Property file - fail ------------>src\test\resources\TestData\expectedResults.properties (The system cannot find the path specified) 
+2023-02-09 18:36:49,071 INFO  [Log] Sample Test  Setup test configuration success------------> 
+2023-02-09 18:37:33,238 INFO  [Log] Sample Test  Setup android driver - success ------------> 
+2023-02-09 18:37:44,667 INFO  [Log] Sample Test  Initialize FrameWork Property file - success ------------> 
+2023-02-09 18:37:44,668 INFO  [Log] Sample Test  Initialize TestData Property file - fail ------------>src\test\resources\TestData\testData.properties (The system cannot find the path specified) 
+2023-02-09 18:37:44,668 INFO  [Log] Sample Test  Initialize ExpectedResults Property file - fail ------------>src\test\resources\TestData\expectedResults.properties (The system cannot find the path specified) 
+2023-02-09 18:37:44,668 INFO  [Log] Sample Test  Setup test configuration success------------> 
+2023-02-09 18:40:36,092 INFO  [Log] Sample Test  Setup android driver - fail ------------>Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: UiAutomator2 Server cannot start because the local port #8200 is busy. Make sure the port you provide via 'systemPort' capability is not occupied. This situation might often be a result of an inaccurate sessions management, e.g. old automation sessions on the same device must always be closed before starting new ones. 
+Host info: host: 'DESKTOP-KDA5GB8', ip: '192.168.1.3'
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:appActivity=com.dgotlieb.automationsample.MainActivity, appium:appPackage=com.dgotlieb.automationsample, appium:deviceName=Redmi 10, appium:newCommandTimeout=900, platformName=ANDROID, appium:systemPort=8200, appium:udid=49adca840507}], desiredCapabilities=Capabilities {appActivity: com.dgotlieb.automationsamp..., appPackage: com.dgotlieb.automationsample, deviceName: Redmi 10, newCommandTimeout: 900, platformName: ANDROID, systemPort: 8200, udid: 49adca840507}}]
+Capabilities {} 
+2023-02-09 18:40:57,691 INFO  [Log] Sample Test  Initialize FrameWork Property file - success ------------> 
+2023-02-09 18:40:57,691 INFO  [Log] Sample Test  Initialize TestData Property file - fail ------------>src\test\resources\TestData\testData.properties (The system cannot find the path specified) 
+2023-02-09 18:40:57,691 INFO  [Log] Sample Test  Initialize ExpectedResults Property file - fail ------------>src\test\resources\TestData\expectedResults.properties (The system cannot find the path specified) 
+2023-02-09 18:40:57,691 INFO  [Log] Sample Test  Setup test configuration success------------> 
+2023-02-09 18:43:38,868 INFO  [Log] Sample Test  Setup android driver - success ------------> 
+2023-02-20 09:38:11,113 INFO  [Log] Sample Test  Initialize FrameWork Property file - success ------------> 
+2023-02-20 09:38:11,113 INFO  [Log] Sample Test  Initialize TestData Property file - fail ------------>src\test\resources\TestData\testData.properties (The system cannot find the path specified) 
+2023-02-20 09:38:11,113 INFO  [Log] Sample Test  Initialize ExpectedResults Property file - fail ------------>src\test\resources\TestData\expectedResults.properties (The system cannot find the path specified) 
+2023-02-20 09:38:11,113 INFO  [Log] Sample Test  Setup test configuration success------------> 
+2023-02-20 09:38:36,544 INFO  [Log] Sample Test  Setup android driver - success ------------> 
+2023-02-20 09:42:12,819 INFO  [Log] Sample Test  Initialize FrameWork Property file - success ------------> 
+2023-02-20 09:42:12,819 INFO  [Log] Sample Test  Initialize TestData Property file - fail ------------>src\test\resources\TestData\testData.properties (The system cannot find the path specified) 
+2023-02-20 09:42:12,819 INFO  [Log] Sample Test  Initialize ExpectedResults Property file - fail ------------>src\test\resources\TestData\expectedResults.properties (The system cannot find the path specified) 
+2023-02-20 09:42:12,819 INFO  [Log] Sample Test  Setup test configuration success------------> 
+2023-02-20 09:42:16,265 INFO  [Log] Sample Test  Setup android driver - fail ------------>Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: UiAutomator2 Server cannot start because the local port #8200 is busy. Make sure the port you provide via 'systemPort' capability is not occupied. This situation might often be a result of an inaccurate sessions management, e.g. old automation sessions on the same device must always be closed before starting new ones. 
+Host info: host: 'DESKTOP-KDA5GB8', ip: '172.18.32.1'
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:appActivity=com.dgotlieb.automationsample.MainActivity, appium:appPackage=com.dgotlieb.automationsample, appium:deviceName=Redmi 10, appium:newCommandTimeout=900, platformName=ANDROID, appium:systemPort=8200, appium:udid=49adca840507}], desiredCapabilities=Capabilities {appActivity: com.dgotlieb.automationsamp..., appPackage: com.dgotlieb.automationsample, deviceName: Redmi 10, newCommandTimeout: 900, platformName: ANDROID, systemPort: 8200, udid: 49adca840507}}]
+Capabilities {} 
+2023-02-20 09:42:33,998 INFO  [Log] Sample Test  Initialize FrameWork Property file - success ------------> 
+2023-02-20 09:42:33,998 INFO  [Log] Sample Test  Initialize TestData Property file - fail ------------>src\test\resources\TestData\testData.properties (The system cannot find the path specified) 
+2023-02-20 09:42:33,998 INFO  [Log] Sample Test  Initialize ExpectedResults Property file - fail ------------>src\test\resources\TestData\expectedResults.properties (The system cannot find the path specified) 
+2023-02-20 09:42:33,998 INFO  [Log] Sample Test  Setup test configuration success------------> 
+2023-02-20 09:42:56,841 INFO  [Log] Sample Test  Setup android driver - success ------------> 
+2023-02-20 09:43:14,562 INFO  [Log] Sample Test  Initialize FrameWork Property file - success ------------> 
+2023-02-20 09:43:14,562 INFO  [Log] Sample Test  Initialize TestData Property file - fail ------------>src\test\resources\TestData\testData.properties (The system cannot find the path specified) 
+2023-02-20 09:43:14,562 INFO  [Log] Sample Test  Initialize ExpectedResults Property file - fail ------------>src\test\resources\TestData\expectedResults.properties (The system cannot find the path specified) 
+2023-02-20 09:43:14,562 INFO  [Log] Sample Test  Setup test configuration success------------> 
+2023-02-20 09:43:18,045 INFO  [Log] Sample Test  Setup android driver - fail ------------>Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: UiAutomator2 Server cannot start because the local port #8200 is busy. Make sure the port you provide via 'systemPort' capability is not occupied. This situation might often be a result of an inaccurate sessions management, e.g. old automation sessions on the same device must always be closed before starting new ones. 
+Host info: host: 'DESKTOP-KDA5GB8', ip: '172.18.32.1'
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:appActivity=com.dgotlieb.automationsample.MainActivity, appium:appPackage=com.dgotlieb.automationsample, appium:deviceName=Redmi 10, appium:newCommandTimeout=900, platformName=ANDROID, appium:systemPort=8200, appium:udid=49adca840507}], desiredCapabilities=Capabilities {appActivity: com.dgotlieb.automationsamp..., appPackage: com.dgotlieb.automationsample, deviceName: Redmi 10, newCommandTimeout: 900, platformName: ANDROID, systemPort: 8200, udid: 49adca840507}}]
+Capabilities {} 
+2023-02-20 09:43:27,210 INFO  [Log] Sample Test  Initialize FrameWork Property file - success ------------> 
+2023-02-20 09:43:27,210 INFO  [Log] Sample Test  Initialize TestData Property file - fail ------------>src\test\resources\TestData\testData.properties (The system cannot find the path specified) 
+2023-02-20 09:43:27,210 INFO  [Log] Sample Test  Initialize ExpectedResults Property file - fail ------------>src\test\resources\TestData\expectedResults.properties (The system cannot find the path specified) 
+2023-02-20 09:43:27,210 INFO  [Log] Sample Test  Setup test configuration success------------> 
+2023-02-20 09:43:45,515 INFO  [Log] Sample Test  Setup android driver - success ------------> 
+2023-02-20 10:15:40,890 INFO  [Log] Sample Test  Initialize FrameWork Property file - success ------------> 
+2023-02-20 10:15:40,890 INFO  [Log] Sample Test  Initialize TestData Property file - fail ------------>src\test\resources\TestData\testData.properties (The system cannot find the path specified) 
+2023-02-20 10:15:40,890 INFO  [Log] Sample Test  Initialize ExpectedResults Property file - fail ------------>src\test\resources\TestData\expectedResults.properties (The system cannot find the path specified) 
+2023-02-20 10:15:40,890 INFO  [Log] Sample Test  Setup test configuration success------------> 
+2023-02-20 10:15:44,528 INFO  [Log] Sample Test  Setup android driver - fail ------------>Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-KDA5GB8', ip: '172.20.10.4' 
+2023-02-20 10:15:53,993 INFO  [Log] Sample Test  Initialize FrameWork Property file - success ------------> 
+2023-02-20 10:15:53,993 INFO  [Log] Sample Test  Initialize TestData Property file - fail ------------>src\test\resources\TestData\testData.properties (The system cannot find the path specified) 
+2023-02-20 10:15:53,993 INFO  [Log] Sample Test  Initialize ExpectedResults Property file - fail ------------>src\test\resources\TestData\expectedResults.properties (The system cannot find the path specified) 
+2023-02-20 10:15:53,993 INFO  [Log] Sample Test  Setup test configuration success------------> 
+2023-02-20 10:15:57,675 INFO  [Log] Sample Test  Setup android driver - fail ------------>Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-KDA5GB8', ip: '172.20.10.4' 
+2023-02-20 10:16:37,375 INFO  [Log] Sample Test  Initialize FrameWork Property file - success ------------> 
+2023-02-20 10:16:37,379 INFO  [Log] Sample Test  Initialize TestData Property file - fail ------------>src\test\resources\TestData\testData.properties (The system cannot find the path specified) 
+2023-02-20 10:16:37,379 INFO  [Log] Sample Test  Initialize ExpectedResults Property file - fail ------------>src\test\resources\TestData\expectedResults.properties (The system cannot find the path specified) 
+2023-02-20 10:16:37,379 INFO  [Log] Sample Test  Setup test configuration success------------> 
+2023-02-20 10:16:57,573 INFO  [Log] Sample Test  Setup android driver - success ------------> 
+2023-02-20 11:17:26,137 INFO  [Log] Sample Test  Initialize FrameWork Property file - success ------------> 
+2023-02-20 11:17:26,137 INFO  [Log] Sample Test  Initialize TestData Property file - fail ------------>src\test\resources\TestData\testData.properties (The system cannot find the path specified) 
+2023-02-20 11:17:26,137 INFO  [Log] Sample Test  Initialize ExpectedResults Property file - fail ------------>src\test\resources\TestData\expectedResults.properties (The system cannot find the path specified) 
+2023-02-20 11:17:26,137 INFO  [Log] Sample Test  Setup test configuration success------------> 
+2023-02-20 11:17:30,728 INFO  [Log] Sample Test  Setup android driver - fail ------------>Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: UiAutomator2 Server cannot start because the local port #8200 is busy. Make sure the port you provide via 'systemPort' capability is not occupied. This situation might often be a result of an inaccurate sessions management, e.g. old automation sessions on the same device must always be closed before starting new ones. 
+Host info: host: 'DESKTOP-KDA5GB8', ip: '172.20.10.4'
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:appActivity=com.dgotlieb.automationsample.MainActivity, appium:appPackage=com.dgotlieb.automationsample, appium:deviceName=Redmi 10, appium:newCommandTimeout=900, platformName=ANDROID, appium:systemPort=8200, appium:udid=49adca840507}], desiredCapabilities=Capabilities {appActivity: com.dgotlieb.automationsamp..., appPackage: com.dgotlieb.automationsample, deviceName: Redmi 10, newCommandTimeout: 900, platformName: ANDROID, systemPort: 8200, udid: 49adca840507}}]
+Capabilities {} 
+2023-02-20 11:17:36,699 INFO  [Log] Sample Test  Initialize FrameWork Property file - success ------------> 
+2023-02-20 11:17:36,700 INFO  [Log] Sample Test  Initialize TestData Property file - fail ------------>src\test\resources\TestData\testData.properties (The system cannot find the path specified) 
+2023-02-20 11:17:36,700 INFO  [Log] Sample Test  Initialize ExpectedResults Property file - fail ------------>src\test\resources\TestData\expectedResults.properties (The system cannot find the path specified) 
+2023-02-20 11:17:36,700 INFO  [Log] Sample Test  Setup test configuration success------------> 
+2023-02-20 11:17:55,955 INFO  [Log] Sample Test  Setup android driver - success ------------> 
+2023-02-20 11:18:10,614 INFO  [Log] Sample Test  Initialize FrameWork Property file - success ------------> 
+2023-02-20 11:18:10,620 INFO  [Log] Sample Test  Initialize TestData Property file - fail ------------>src\test\resources\TestData\testData.properties (The system cannot find the path specified) 
+2023-02-20 11:18:10,620 INFO  [Log] Sample Test  Initialize ExpectedResults Property file - fail ------------>src\test\resources\TestData\expectedResults.properties (The system cannot find the path specified) 
+2023-02-20 11:18:10,620 INFO  [Log] Sample Test  Setup test configuration success------------> 
+2023-02-20 11:18:28,722 INFO  [Log] Sample Test  Setup android driver - success ------------> 
+2023-02-20 11:18:36,685 INFO  [Log] Sample Test  Initialize FrameWork Property file - success ------------> 
+2023-02-20 11:18:36,685 INFO  [Log] Sample Test  Initialize TestData Property file - fail ------------>src\test\resources\TestData\testData.properties (The system cannot find the path specified) 
+2023-02-20 11:18:36,685 INFO  [Log] Sample Test  Initialize ExpectedResults Property file - fail ------------>src\test\resources\TestData\expectedResults.properties (The system cannot find the path specified) 
+2023-02-20 11:18:36,685 INFO  [Log] Sample Test  Setup test configuration success------------> 
+2023-02-20 11:18:55,359 INFO  [Log] Sample Test  Setup android driver - success ------------> 
+2023-02-20 11:22:03,159 INFO  [Log] Sample Test  Initialize FrameWork Property file - success ------------> 
+2023-02-20 11:22:03,160 INFO  [Log] Sample Test  Initialize TestData Property file - fail ------------>src\test\resources\TestData\testData.properties (The system cannot find the path specified) 
+2023-02-20 11:22:03,160 INFO  [Log] Sample Test  Initialize ExpectedResults Property file - fail ------------>src\test\resources\TestData\expectedResults.properties (The system cannot find the path specified) 
+2023-02-20 11:22:03,160 INFO  [Log] Sample Test  Setup test configuration success------------> 
+2023-02-20 11:22:21,479 INFO  [Log] Sample Test  Setup android driver - success ------------> 
+2023-02-20 11:22:36,152 INFO  [Log] Sample Test  Initialize FrameWork Property file - success ------------> 
+2023-02-20 11:22:36,152 INFO  [Log] Sample Test  Initialize TestData Property file - fail ------------>src\test\resources\TestData\testData.properties (The system cannot find the path specified) 
+2023-02-20 11:22:36,152 INFO  [Log] Sample Test  Initialize ExpectedResults Property file - fail ------------>src\test\resources\TestData\expectedResults.properties (The system cannot find the path specified) 
+2023-02-20 11:22:36,152 INFO  [Log] Sample Test  Setup test configuration success------------> 
+2023-02-20 11:22:54,474 INFO  [Log] Sample Test  Setup android driver - success ------------> 
+2023-03-16 07:58:32,033 INFO  [Log] Sample Test  Initialize FrameWork Property file - success ------------> 
+2023-03-16 07:58:32,034 INFO  [Log] Sample Test  Initialize TestData Property file - fail ------------>src/test/resources/TestData/testData.properties (No such file or directory) 
+2023-03-16 07:58:32,034 INFO  [Log] Sample Test  Initialize ExpectedResults Property file - fail ------------>src/test/resources/TestData/expectedResults.properties (No such file or directory) 
+2023-03-16 07:58:32,034 INFO  [Log] Sample Test  Setup test configuration success------------> 
+2023-03-16 07:58:32,581 INFO  [Log] Sample Test  Setup android driver - fail ------------>Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'Leshans-MacBook-Pro.local', ip: 'fe80:0:0:0:ced:1fd8:f6cd:ae84%en0' 
