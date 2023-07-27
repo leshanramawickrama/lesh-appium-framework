@@ -2,6 +2,7 @@ package com.sample.common;
 
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
 import org.openqa.selenium.Dimension;
@@ -18,8 +19,10 @@ import java.util.Map;
 import java.util.Properties;
 
 public class Utility {
-    private static AndroidDriver driver;
-    private static AndroidDriver driver_1;
+    private static AndroidDriver androidDriver;
+    private static AndroidDriver androidDriver_1;
+    private static IOSDriver iosDriver;
+    private static IOSDriver iosDriver_1;
     private static Utility utility;
     private static Properties uiProp;
     private static Properties expectedResults;
@@ -36,7 +39,7 @@ public class Utility {
     public static void setAndroidDriver(String environment) throws MalformedURLException {
         if (environment == "device_1") {
             try {
-                DesiredCapabilities capabilities = new DesiredCapabilities();
+                /*DesiredCapabilities capabilities = new DesiredCapabilities();
                 capabilities.setCapability("udid", Utility.getFrameWorkProp("1_udid"));
                 capabilities.setCapability("systemPort", Integer.parseInt(Utility.getFrameWorkProp("1_systemPort")));
                 capabilities.setCapability("newCommandTimeout", Integer.parseInt(Utility.getFrameWorkProp("1_newCommandTimeout")));
@@ -45,8 +48,26 @@ public class Utility {
                 capabilities.setCapability(CapabilityType.VERSION, Utility.getFrameWorkProp("1_capabilityType.VERSION"));
                 capabilities.setCapability("noReset", Utility.getFrameWorkProp("1_noReset"));
                 capabilities.setCapability("appPackage", Utility.getFrameWorkProp("1_appPackage"));
-                capabilities.setCapability("appActivity", Utility.getFrameWorkProp("1_appActivity"));
-                driver_1 = new AndroidDriver(new URL(Utility.getFrameWorkProp("1_URL")), capabilities);
+                capabilities.setCapability("appActivity", Utility.getFrameWorkProp("1_appActivity"));*/
+                DesiredCapabilities capabilities = new DesiredCapabilities();
+                capabilities.setCapability("pCloudy_Username", "pastethevaluehere");
+                capabilities.setCapability("pCloudy_ApiKey", "pastethevaluehere");
+                capabilities.setCapability("pCloudy_DurationInMinutes", 10);
+                capabilities.setCapability("newCommandTimeout", 600);
+                capabilities.setCapability("launchTimeout", 90000);
+                //capabilities.setCapability("pCloudy_DeviceManafacturer", "Samsung");
+                capabilities.setCapability("pCloudy_DeviceFullName", "GOOGLE_Pixel7_Android_13.0.0_81870");
+                capabilities.setCapability("platformVersion", "13.0.0");
+                capabilities.setCapability("platformName", "Android");
+                capabilities.setCapability("automationName", "uiautomator2");
+                capabilities.setCapability("pCloudy_ApplicationName", "Automation.apk");
+                capabilities.setCapability("appPackage", "com.dgotlieb.automationsample");
+                capabilities.setCapability("appActivity", "com.dgotlieb.automationsample.MainActivity");
+                capabilities.setCapability("pCloudy_WildNet", "false");
+                capabilities.setCapability("pCloudy_EnableVideo", "true");
+                capabilities.setCapability("pCloudy_EnablePerformanceData", "true");
+                capabilities.setCapability("pCloudy_EnableDeviceLogs", "true");
+                androidDriver_1 = new AndroidDriver(new URL(Utility.getFrameWorkProp("1_URL")), capabilities);
                 Log.info("Setup android driver - success ------------>");
             } catch (Exception e) {
                 Log.info("Setup android driver - fail ------------>" + e.getMessage());
@@ -55,9 +76,44 @@ public class Utility {
         }
     }
 
+    public static void setIosDriver(String environment) throws MalformedURLException {
+        if (environment == "device_1") {
+            try {
+                DesiredCapabilities capabilities = new DesiredCapabilities();
+                capabilities.setCapability("pCloudy_Username", "pastethevaluehere");
+                capabilities.setCapability("pCloudy_ApiKey", "pastethevaluehere");
+                capabilities.setCapability("pCloudy_DurationInMinutes", 10);
+                capabilities.setCapability("newCommandTimeout", 600);
+                capabilities.setCapability("launchTimeout", 90000);
+                //capabilities.setCapability("pCloudy_DeviceFullName", "APPLE_iPhone11_iOS_15.0.2_4414a");
+                //capabilities.setCapability("platformVersion", "15.0.0");
+                capabilities.setCapability("pCloudy_DeviceManafacturer", "Apple");
+                capabilities.setCapability("platformName", "ios");
+                capabilities.setCapability("acceptAlerts", true);
+                capabilities.setCapability("automationName", "XCUITest");
+                capabilities.setCapability("pCloudy_ApplicationName", "pCloudy_Appium_Demo_Resigned1679652693.ipa");
+                capabilities.setCapability("bundleId", "com.pcloudy.TestmunkDemo");
+                capabilities.setCapability("pCloudy_WildNet", "false");
+                capabilities.setCapability("pCloudy_EnableVideo", "true");
+                capabilities.setCapability("pCloudy_EnablePerformanceData", "true");
+                capabilities.setCapability("pCloudy_EnableDeviceLogs", "false");
+                iosDriver_1 = new IOSDriver(new URL(Utility.getFrameWorkProp("1_URL")), capabilities);
+                Log.info("Setup ios driver - success ------------>");
+            } catch (Exception e) {
+                Log.info("Setup ios driver - fail ------------>" + e.getMessage());
+            }
+
+        }
+    }
+
     public static AndroidDriver getAndroidDriver() {
-        driver = driver_1;
-        return driver;
+        androidDriver = androidDriver_1;
+        return androidDriver;
+    }
+
+    public static IOSDriver getIsoDriver() {
+        iosDriver = iosDriver_1;
+        return iosDriver;
     }
 
     public static String getFrameWorkProp(String key) {
@@ -114,13 +170,11 @@ public class Utility {
 
     public static void appClose() {
         try {
-            driver.quit();
+            iosDriver_1.quit();
 
         } catch (Exception e) {
             e.printStackTrace();
         }
 
     }
-
-
 }
